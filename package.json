@@ -4,6 +4,7 @@
   "description": "TypeScriptTypeScriptTypeScriptTypeScriptTypeScriptTypeSc",
   "main": "index.js",
   "scripts": {
+    "stdout-only": "$(npm bin)/tsc --outFile /dev/stdout",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
