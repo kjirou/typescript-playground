@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/kjirou/typescript-playground/issues"
   },
-  "homepage": "https://github.com/kjirou/typescript-playground#readme"
+  "homepage": "https://github.com/kjirou/typescript-playground#readme",
+  "private": true
 }
