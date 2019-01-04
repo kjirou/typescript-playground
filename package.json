@@ -16,5 +16,8 @@
     "url": "https://github.com/kjirou/typescript-playground/issues"
   },
   "homepage": "https://github.com/kjirou/typescript-playground#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "typescript": "^3.2.2"
+  }
 }
