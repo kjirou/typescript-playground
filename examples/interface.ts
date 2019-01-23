@@ -25,3 +25,21 @@ class Fooo implements Foo {
     return this.age;
   }
 }
+
+
+//
+// interface は同名の定義で拡張される
+//
+interface Hoge {
+  x: number,
+};
+
+interface Hoge {
+  y: number,
+};
+
+// OK
+const hoge: Hoge = {
+  x: 1,
+  y: 2,
+};
