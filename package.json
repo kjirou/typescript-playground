@@ -4,7 +4,8 @@
   "description": "TypeScriptTypeScriptTypeScriptTypeScriptTypeScriptTypeSc",
   "main": "index.js",
   "scripts": {
-    "stdout-only": "$(npm bin)/tsc --outFile /dev/stdout",
+    "stdout-compile-result": "$(npm bin)/tsc --noEmit --strict --outFile /dev/stdout",
+    "typecheck:most-strict": "$(npm bin)/tsc --project tsconfigs/most-strict.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

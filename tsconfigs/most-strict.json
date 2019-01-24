@@ -1,0 +1,20 @@
+{
+  /* 最も厳しくした設定例 */
+  "compilerOptions": {
+    /* Basic Options */
+    "jsx": "preserve",
+    "module": "CommonJS",
+    "noEmit": true,
+    "target": "ES5",
+    /* Strict Type-Checking Options */
+    "strict": true,
+    /* Additional Checks */
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "../examples"
+  ]
+}
