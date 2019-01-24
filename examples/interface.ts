@@ -43,3 +43,47 @@ const hoge: Hoge = {
   x: 1,
   y: 2,
 };
+
+
+//
+// undefined と null と (keyがない) undefined の関係
+//
+// void は undefined と等価
+//
+// --strict 前提
+//
+interface Taro {
+  x: null,
+  y: undefined,
+  z?: number,
+}
+
+// OK
+const taroOk1: Taro = {
+  x: null,
+  y: undefined,
+};
+
+// OK: z? は z: undefined を許容する
+const taroOk2: Taro = {
+  x: null,
+  y: undefined,
+  z: undefined,
+};
+
+// NG
+const taroNg1: Taro = {
+  x: undefined,
+  y: undefined,
+};
+
+// NG
+const taroNg2: Taro = {
+  x: null,
+  y: null,
+};
+
+// NG
+const taroNg3: Taro = {
+  x: null,
+};
