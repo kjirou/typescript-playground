@@ -16,3 +16,16 @@ elem.toUpperCase();
 const list2: string[] = ['a'];
 const elem2 = list2[Math.round(Math.random())];
 elem2.toUpperCase();
+
+
+//
+// 一番シンプルにしたこれでも void の可能性を考えないので、
+// 仕様っぽい
+//
+const a: string[] = [];
+a[0].toUpperCase();
+
+let b: string = 'a';
+b = a[0];
+// NG
+//b = undefined;
