@@ -5,19 +5,19 @@
 
 type Foo = {
   x: number,
-  y: number,
-  z?: number,
+  y?: number,
+  z: number,
 };
 type PartialFoo = Partial<Foo>;
 
-const zExists = Math.random() < 0.5;
+const yExists = Math.random() < 0.5;
 
 const fooBuilding: PartialFoo = {};
 fooBuilding.x = 1;
-fooBuilding.y = 2;
-if (zExists) {
-  fooBuilding.z = 3;
+if (yExists) {
+  fooBuilding.y = 2;
 }
+fooBuilding.z = 3;
 // これがあると NG
 //fooBuilding.a = 11;
 
