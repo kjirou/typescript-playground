@@ -18,7 +18,8 @@ fooBuilding.y = 2;
 if (zExists) {
   fooBuilding.z = 3;
 }
-fooBuilding.a = 11;
+// これがあると NG
+//fooBuilding.a = 11;
 
 const foo: Foo = fooBuilding as Foo;
 
