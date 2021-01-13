@@ -25,7 +25,8 @@ type Bar = {
 };
 
 type Ax = Bar['a']['x'];
-type By = Bar['b']['y'];
+// NG
+// type By = Bar['b']['y'];
 
 // OK
 let ax: Ax = 1;
