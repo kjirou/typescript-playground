@@ -13,10 +13,10 @@ const o1: Obj = {
 };
 
 // NG
-const o2: Obj = {
-  x: 1,
-  y: 'b',
-};
+// const o2: Obj = {
+//   x: 1,
+//   y: 'b',
+// };
 
 const s = Symbol();
 

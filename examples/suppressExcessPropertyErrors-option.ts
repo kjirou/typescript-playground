@@ -5,8 +5,8 @@
  */
 
 // suppressExcessPropertyErrors がないと NG
-let x: { foo: number };
-x = { foo: 1, baz: 2 };
+// let x: { foo: number };
+// x = { foo: 1, baz: 2 };
 
 // suppressExcessPropertyErrors なしでも OK
 // Object.assign を使うには "--lib ES2015" が必要

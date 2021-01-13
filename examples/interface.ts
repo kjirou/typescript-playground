@@ -72,20 +72,20 @@ const taroOk2: Taro = {
 };
 
 // NG
-const taroNg1: Taro = {
-  x: undefined,
-  y: undefined,
-};
+// const taroNg1: Taro = {
+//   x: undefined,
+//   y: undefined,
+// };
 
 // NG
-const taroNg2: Taro = {
-  x: null,
-  y: null,
-};
+// const taroNg2: Taro = {
+//   x: null,
+//   y: null,
+// };
 
 // NG
-const taroNg3: Taro = {
-  x: null,
-};
+// const taroNg3: Taro = {
+//   x: null,
+// };
 
 export {}
