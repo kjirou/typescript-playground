@@ -9,3 +9,5 @@ function withImplicitAny(x) {
 function noImplicitAny(x: any) {
   console.log(x);
 }
+
+export {}

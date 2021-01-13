@@ -31,3 +31,5 @@ const invalidPoint2D: Point2D = {
   y: 2,
   ...(flag ? {xx: 11} : {})
 };
+
+export {}

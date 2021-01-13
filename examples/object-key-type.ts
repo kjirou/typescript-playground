@@ -25,3 +25,5 @@ const o3: Obj = {
   x: 1,
   [Symbol()]: 2,
 };
+
+export {}

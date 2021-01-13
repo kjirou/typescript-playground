@@ -58,3 +58,5 @@ function forceToFixed1<T extends number>(arg: T): string {
 //forceToFixed1('3');
 // OK
 forceToFixed1(3);
+
+export {}

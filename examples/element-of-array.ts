@@ -29,3 +29,5 @@ let b: string = 'a';
 b = a[0];
 // NG
 //b = undefined;
+
+export {}

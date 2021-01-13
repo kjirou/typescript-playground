@@ -9,3 +9,5 @@ const foo = (x) => {
 };
 
 foo(2).toUpperCase();
+
+export {}

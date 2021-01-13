@@ -13,3 +13,5 @@ o.z = null;
 
 // NG
 //o.x = 'a';
+
+export {}

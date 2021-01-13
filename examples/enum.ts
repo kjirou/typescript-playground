@@ -12,3 +12,5 @@ a = SE.Bar
 // NG: こういう風には使えない
 //const b: E1 = 'FOO';
 //const c: E1 = 'Foo';
+
+export {}

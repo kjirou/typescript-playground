@@ -10,3 +10,5 @@ const o: Obj = {
   a: 's',
 };
 o.a = undefined;
+
+export {}

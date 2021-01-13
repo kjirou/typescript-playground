@@ -12,3 +12,5 @@ x = { foo: 1, baz: 2 };
 // Object.assign を使うには "--lib ES2015" が必要
 let o: { x: number, y: number };
 o = Object.assign({x: 1}, {y: 2});
+
+export {}

@@ -9,3 +9,5 @@ const m1: Mapped1 = {
 //const m2: Mapped1 = {
 //  x: 1,
 //};
+
+export {}

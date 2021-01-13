@@ -25,3 +25,5 @@ const baz: Baz = {
 //  x: 1,
 //  y: '',
 //};
+
+export {}

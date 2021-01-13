@@ -16,3 +16,5 @@ const x: string | number = Math.random() > 0.5 ? 'a' : 1;
 // OK
 let z = x as number;
 z.toFixed();
+
+export {}

@@ -20,3 +20,5 @@ const fooOk3 = (x) => {
 const fooOk4 = (x) => {
   +x;
 };
+
+export {}

@@ -13,3 +13,5 @@ const baz = () => {
   // NG
   const x = 1;
 };
+
+export {}

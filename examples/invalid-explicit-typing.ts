@@ -6,3 +6,5 @@
 function foo(): string {
   return 1;
 }
+
+export {}

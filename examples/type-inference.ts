@@ -28,3 +28,5 @@ function identify3(arg: string | null) {
 }
 // OK
 identify3('a').toUpperCase();
+
+export {}

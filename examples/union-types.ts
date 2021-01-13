@@ -34,3 +34,5 @@ const o2 = {
 };
 // NG: 変数から直接は無理っぽい
 //let l: keyof o2;
+
+export {}

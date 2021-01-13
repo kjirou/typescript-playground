@@ -26,3 +26,5 @@ fooBuilding.z = 3;
 const foo: Foo = fooBuilding as Foo;
 
 console.log(foo);
+
+export {}

@@ -28,3 +28,5 @@ const obj1: {
 
 // OK: ローカル変数代入とは異なり : の後に戻り値の型を書ける
 const foo = [1, 2].map((v: number): number => v);
+
+export {}

@@ -31,3 +31,5 @@ type By = Bar['b']['y'];
 let ax: Ax = 1;
 // NG
 //let by: By = 2;
+
+export {}

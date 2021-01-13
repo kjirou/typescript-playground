@@ -24,3 +24,5 @@ foo2.getY();  // OK: OK になっちゃうから安全ではない
 const bar2 = <Foo>new Bar();
 bar2.getX();  // OK
 bar2.getY();  // NG: 期待通り
+
+export {}

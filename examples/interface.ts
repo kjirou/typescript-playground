@@ -87,3 +87,5 @@ const taroNg2: Taro = {
 const taroNg3: Taro = {
   x: null,
 };
+
+export {}

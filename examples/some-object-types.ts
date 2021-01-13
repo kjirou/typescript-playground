@@ -27,3 +27,5 @@ const ary3: object = []
 //const bool3: object = true
 //const nul3: object = null
 //const undef3: object = undefined
+
+export {}

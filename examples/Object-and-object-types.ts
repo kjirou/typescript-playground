@@ -18,3 +18,5 @@ const foo = (o: object) => {};
 foo({});
 // NG
 foo(4);
+
+export {}
