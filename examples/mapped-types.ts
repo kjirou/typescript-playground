@@ -10,6 +10,7 @@ const m1: Mapped1 = {
 //  x: 1,
 //};
 
+// P, K, T が何かは https://zenn.dev/qnighy/articles/dde3d980b5e386 が参考になった。
 type NumericKeyOnly<K extends number, T> = { [P in K]: T }
 type HttpStatusTexts = NumericKeyOnly<200 | 400 | 404, string>
 const foo: HttpStatusTexts = {
@@ -21,5 +22,9 @@ const foo: HttpStatusTexts = {
   // NG
   //'200': 'Hi',
 }
+
+// P は T で使える変数であり、外側から受け取っているわけではない。
+type MapNumberToNumber = { [P in number]: P }
+const nn: MapNumberToNumber = {1: 2}
 
 export {}
